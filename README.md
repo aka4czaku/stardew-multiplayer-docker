@@ -16,7 +16,7 @@ This project aims to autostart a Stardew Valley Multiplayer Server as easy as po
 ```
 git clone https://github.com/aka4czaku/stardew-multiplayer-docker
 
-docker-compose up
+docker-compose up &
 ```
 ### Ansible !deprecated!
 
@@ -47,7 +47,7 @@ Localhost:
    # Server is only reachable on localhost on port 2342...
    ports:
      - 127.0.0.1:2342:5900
-   # ... with the password "insecure"
+   # ... with the password "stardew"
    environment:
      - VNCPASS=insecure
 ```
