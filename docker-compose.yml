@@ -5,9 +5,9 @@ services:
     build: docker
     container_name: stardew
     environment:
-      - "VNC_PASSWORD=nyanyanya"
-      - "DISPLAY_HEIGHT=640"
-      - "DISPLAY_WIDTH=800"
+      - "VNC_PASSWORD=stardew"
+      - "DISPLAY_HEIGHT=768"
+      - "DISPLAY_WIDTH=1024"
       ## Always On Server mod
       # Removing this will probably defeat the point of ever using this?
       - ENABLE_ALWAYSONSERVER_MOD=${ENABLE_ALWAYSONSERVER_MOD-true}
